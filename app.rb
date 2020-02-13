@@ -16,7 +16,7 @@ class App < Sinatra::Base
     @center = params["c"]
 
     erb :team
-    
+    <input type="submit" name="submit" value="submit" id="submit" />
   end
 
 end
